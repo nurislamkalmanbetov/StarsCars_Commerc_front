@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">             
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <!-- карусель перед css! важно -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>  <!--https://swiperjs.com/get-started-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <header class="header header-main">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="#" class="logo">
+                        <img src="images/starcars3.png" style="width: 150px;" alt="" class="logo__img">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__list-link">Новинки</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__list-link">Китай</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__list-link">Финансы</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__list-link">Разница</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="contacts.html" class="menu__list-link">Наши контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+
+            <section class="top">
+                <div class="container">
+                    <h1 class="title">
+                        Авто с Китая S&C
+                    </h1>
+                    <a href="#" class="top__link">
+                        НАЙТИ АВТО
+                    </a>
+                </div>
+            </section>
+
+            <div class="slider"> 
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-image: 
+                        url(/images/bmw.png);"></div>
+                        <div class="swiper-slide" style="background-image: 
+                        url(/images/vw.jpg);"></div>
+                        <div class="swiper-slide" style="background-image: 
+                        url(/images/audi.jpg);"></div>
+                        <div class="swiper-slide" style="background-image: 
+                        url(/images/chev.jpg);"></div>
+                    </div>
+                    <div class="swiper-pagination"></div> <!--js/main.js (taken 3-pagination -> core) -> https://swiperjs.com/demos -->
+                </div>
+            </div>
+
+            <section class="why-lease">
+                <div class="container">
+                    <h2 class="section-title">
+                        Бизнесс с STARCARS
+                    </h2>
+                    <ul class="why-lease__list">
+                        <li class="why-lease__item">
+                            <img class="why-lease__item-img" src="images/why-lease-1.svg" alt="">
+                            <h3 class="why-lease__item-title">
+                                Прямая поставка
+                            </h3>
+                            <p class="why-lease__item-text">
+                                Более +1000 Диллеров по всему Китаю 
+                                лучших производителей автомобильной индустрии
+                            </p>
+                        </li>
+                        <li class="why-lease__item">
+                            <img class="why-lease__item-img" src="images/why-lease-2.svg" alt="">
+                            <h3 class="why-lease__item-title">
+                                Скидки % 
+                            </h3>
+                            <p class="why-lease__item-text">
+                                Постоянным клиентам скидки. Так же предусмотрены
+                                пенскионные льготы и многодетным семьям
+                            </p>
+                        </li>
+                        <li class="why-lease__item">
+                            <img class="why-lease__item-img" src="images/why-lease-3.svg" alt="">
+                            <h3 class="why-lease__item-title">
+                                Низкие цены
+                            </h3>
+                            <p class="why-lease__item-text">
+                                Цены ниже рыночной стоимости. Почему? 
+                                Долгая и надежная структура работы с Диллерами
+                            </p>
+                        </li>
+                        <li class="why-lease__item">
+                            <img class="why-lease__item-img" src="images/why-lease-4.svg" alt="">
+                            <h3 class="why-lease__item-title">
+                                Высокое качество
+                            </h3>
+                            <p class="why-lease__item-text">
+                                Мы гарантируем качество за нашего продукта путем 
+                                и обратного связи 
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="how-does">
+                <div class="container">
+                    <div class="how-does__inner">
+                        <h2 class="section-title">
+                            Как приобрести Авто?    
+                        </h2>
+                        <p class="how-does__text">
+                            Для приобретения Авто, нужно будет придти в офис и обратиться 
+                            к менеджеру компании. Он Вам даст доступ к открытым аукционам.
+                            Там вы познакомитесь со всеми структурами аукционного ввида 
+                            по выкупу авто и после оплаты депозита, сотрудник компании(менеджер)
+                            будет курировать Вас до Вашего выигрыша Китайского Автомобиля
+                        </p>
+                        <h4 class="how__does-title">
+                            Заключение договора:
+                        </h4>
+                        <ol class="how__does-list">
+                            <li class="how__does-item">
+                                Приходите в офис, вносите первоначальный взнос 30%
+                            </li>
+                            <li class="how__does-item">
+                                Получаете доступ в закрытый сайт аукциона и начинате
+                                мониторить процесс выкупа
+                            </li>
+                            <li class="how__does-item">
+                                Выигрываете Авто и оплачиваее у нас
+                            </li>
+                        </ol>
+                        <p class="how-does__text">
+                            Контракт с нашей компанией, гарантирует Вам
+                            - Все услуги под ключ
+                            - Доступ к аукционам 24/7
+                            - Тех поддержка с 09:00-18:00
+                            - Помощь по аукциону по выкупу Авто 
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="video">
+                <div class="container">
+                    <h2 class="section__title video__title">
+                        ДОБРО ПОЖАЛОВАТЬ В STARCARS
+                    </h2>
+                    <p class="video__text">
+                        Убедись как легко с STARCARS
+                    </p>
+                    <iframe class="video__content" width="800" height="450" src="https://www.youtube.com/embed/VzpqhZEf5tw?si=CEEgX40MQuryYBN9&amp;controls=0" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+                </div>
+            </section>
+
+            <section class="important">
+                <div class="container">
+                    <h2 class="section-title important__title">
+                        Важные детали
+                    </h2>
+                    <p class="important__text">
+                        В зависимости от ваших обстоятельств и того, что для вас 
+                        важно, покупка может 
+                        стать отличным вариантом для вашего следующего автомобиля. 
+                        Ниже приведены некоторые важные факторы, которые могут 
+                        повлиять на ваше решение.
+                    </p>
+                    <ul class="important__list">
+
+                        <li class="important__item">
+                            <img class="important__item-img" src="images/imp-1.jpg" alt="">
+                            <p class="important__item-text">
+                                Ежемесячные платежи по аренде обычно на 20–30 % дешевле, 
+                                чем по кредитам.
+                            </p>
+                        </li>
+
+                        <li class="important__item">
+                            <img class="important__item-img" src="images/imp-2.jpg" alt="" >
+                            <p class="important__item-text">
+                                Вы можете иметь право на налоговые льготы, если покупаете на прямую 
+                                у нас автомобиль в деловых целях.                           
+                            </p>
+                        </li>
+
+                        <li class="important__item">
+                            <img class="important__item-img" src="images/imp-3.jpg" alt="">
+                            <p class="important__item-text">
+                                Легко обновлять модель автомобиля до новейшей каждые несколько лет.                            
+                            </p>
+                        </li>
+
+                        <li class="important__item">
+                            <img class="important__item-img" src="images/imp-4.jpg" alt="">
+                            <p class="important__item-text">
+                                Часто взимается плата, если вы проезжаете больше, чем разрешено 
+                                в рамках аренды.                            
+                            </p>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <nav class="footer__menu">
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <p class="footer__menu-title">Продукт</p>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Китай</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Новинки</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Продать свою машину</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <p class="footer__menu-title">Ресурсы</p>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Блог</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Фак</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Контакты</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <p class="footer__menu-title">Бизнес</p>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Диллеры</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Партнеры</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link"></a>
+                        </li>
+                    </ul>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <p class="footer__menu-title">О нас</p>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">О нас</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Команда</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Карьера</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="app">
+                    <li class="app__item">
+                        <a href="#" class="app__item-link">
+                            <img src="images/appstore.svg" alt="" class="app__item-img">
+                        </a>
+                    </li>
+                    <li class="app__item">
+                        <li class="app__item">
+                            <a href="#" class="app__item-link">
+                                <img src="images/googleplay.svg" alt="" class="app__item-img">
+                            </a>
+                        </li>
+                    </li>
+                </ul>
+                <div class="footer__copy">
+                    <p class="footer__cope-text">
+                        По вопросам сотрудничества или заказа нового авто, просим Вас звонить 
+                        нам по номер +1234567890 так же есть Вотсапп 
+                        Все права и данные пройдены через проверку и соответствуют своим действиям 
+                        С Уважением, команда по продаже авто
+                    </p>
+                    <p class="footer__cope-text">
+                        По вопросам сотрудничества или заказа нового авто, просим Вас звонить 
+                        нам по номер +1234567890 так же есть Вотсапп 
+                        Все права и данные пройдены через проверку и соответствуют своим действиям 
+                        С Уважением, команда по продаже авто
+                    </p>
+                </div>
+                <nav class="copy__nav">
+                    <ul class="copy__nav-list">
+                        <li class="copy__nav-item">
+                            <a href="" class="cope__nav-link" herf="#">Термин и сервис</a>
+                        </li>
+                        <li class="copy__nav-item">
+                            <a href="" class="cope__nav-link" herf="#">Приват и полиция</a>
+                        </li>
+                        <li class="copy__nav-item">
+                            <a href="" class="cope__nav-link" herf="#">Не продавать мои данные</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
