@@ -83,6 +83,10 @@ body{
     font-weight: 700;
 }
 
+.menu__list-link--active{
+    color: aqua;
+}
+
 .footer{
     background-color: #151515;
     padding: 50px 0 32px;
@@ -334,7 +338,7 @@ body{
 }
 
 .contacts{
-    padding: 100px 0 150px;
+    padding: 50px 0 50px;
 }
 
 .contacts__title{
@@ -404,4 +408,146 @@ form{
     font-weight: 400;
     padding: 13px 61px;
     margin: 0 auto;
+}
+
+.blog{
+    padding-bottom: 50px;
+}
+
+.blog__items{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-bottom:  70px;
+}
+
+.blog__item{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blog__item-img{
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.blog__item-title{
+    flex-basis: 446px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.blog__item-link{
+    color: #fff;
+    background-color: #0066FF;
+    padding: 4px 20px;
+}
+
+.showmore__link{
+    text-transform: uppercase;
+    background-color: #151515;
+    padding: 13px;
+    color: #fff;
+    width: 225px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.choose{
+    padding: 100px 0 150px;
+}
+
+.tabs{
+    margin-bottom: 70px;
+}
+
+.tabs__btn{
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding-bottom: 100px;
+}
+
+.tabs__btn-item{
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+/* .tabs__btn-item--active{
+    color: aqua;
+} */
+
+.tabs__content-item{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px 40px;
+}
+
+.card{
+    text-align: center;
+}
+
+.card__content{
+    padding: 0 5px;
+    border: 1px solid #0066FF;
+    border-top:  0;
+}
+
+.card__img{
+    display: block;
+}
+
+.card__title{
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.card__text{
+    margin-bottom: 20px;
+}
+
+.card__price{
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    font-weight: 700px;
+    font-size: 24px;
+}
+
+.card__link{
+    display: block;
+    color: #0066FF;
+    border: 1px solid #0066FF;
+    border-top: 0;
+}
+
+@media only screen and (max-width: 480px) {
+    .logo {
+        margin-right: 80px;
+    }
+
+    .top__title {
+        font-size: 35px;
+    }
+
+    .blockquote__text {
+        margin-top: 40px;
+        font-size: 25px;
+    }
+
+    .top__inner {
+        min-height: 120px !important;
+    }
+
+    .menu__list {
+        width: 360px;
+    }
 }

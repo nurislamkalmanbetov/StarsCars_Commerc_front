@@ -7,7 +7,11 @@
 STARSCARS - это сайт для потребителей Азии по покупке Авто с восточных стран.
 
 
+Под домейном - http://2863435.bc531339.web.hosting-test.net/index.html 
+если ничего нет, то значит домейн изменили
 
 ![Главный сайт пример](images/readme1.png)
 
 ![Пример2](images/readme2.png)
+
+![Пример2](images/readme3.png)
